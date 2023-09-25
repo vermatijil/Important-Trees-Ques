@@ -5,7 +5,7 @@
 using namespace std;
 
 // this is the another way of solving this question
-// returning the diameter and height as the pain from the root to decrease the time complexity
+// returning the diameter and height as the pair from the root to decrease the time complexity
 pair<int, int> DiameterBinaryTreeSecond(TreeNode *root)
 {
     if (root == NULL)
